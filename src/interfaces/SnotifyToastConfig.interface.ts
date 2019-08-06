@@ -82,7 +82,7 @@ export interface SnotifyToastConfig {
    * @type {string}
    * @default undefined
    */
-  icon?: string;
+  icon?: string | boolean;
   /**
    * Backdrop opacity.
    * * **Range:** `0.0 - 1.0`.
